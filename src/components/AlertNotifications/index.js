@@ -48,15 +48,7 @@ export default class AlertNotifications extends Component {
 
         <ul className="notifications-container">
           {notificationList.map(object => (
-            <Notification>
-              {
-                (object.id,
-                object.className,
-                object.component,
-                object.text,
-                object.description)
-              }
-            </Notification>
+            <Notification>{object}</Notification>
           ))}
         </ul>
       </div>
