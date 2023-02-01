@@ -11,14 +11,16 @@ const notificationList = [
   {
     id: 1,
     className: 'green',
-    component: `${(<AiFillCheckCircle />)}`,
+
+    component: <AiFillCheckCircle className="green" />,
     text: 'Success',
     description: 'You can access all the files in the folder',
   },
   {
     id: 2,
     className: 'red',
-    component: `${(<RiErrorWarningFill />)}`,
+
+    component: <RiErrorWarningFill className="red" />,
     text: 'Error',
     description:
       'Sorry, you are not authorized to have access to delete the file',
@@ -26,14 +28,16 @@ const notificationList = [
   {
     id: 3,
     className: 'yellow',
-    component: `${(<MdWarning />)}`,
+
+    component: <MdWarning className="yellow" />,
     text: 'Warning',
     description: 'Viewers of this file can see comments and suggestions',
   },
   {
     id: 4,
     className: 'blue',
-    component: `${(<MdInfo />)}`,
+
+    component: <MdInfo className="blue" />,
     text: 'Info',
     description: 'Anyone on the Internet can view these files',
   },
